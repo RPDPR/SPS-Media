@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import { AcceptButton } from "shared/ui/button/index";
+
+export const metadata: Metadata = {
+  title: "Not Found",
+};
 
 export default function NotFound() {
   return (

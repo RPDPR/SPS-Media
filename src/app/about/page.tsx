@@ -1,6 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-
 import { AcceptButton } from "shared/ui/button/index";
+
+export const metadata: Metadata = {
+  title: "About SPS Media",
+};
 
 export default function About() {
   return (

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="w-full px-2 py-2 bg-cyan-900 flex flex-row items-center fixed">
-      <Link href="/#">
+    <header className="w-full px-2 py-2 bg-cyan-500 flex flex-row items-center fixed z-100">
+      <Link href="/">
         <Image
           src="/SPSMediaLabel.svg"
           alt="SPS Media Label"
