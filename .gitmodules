@@ -1,0 +1,6 @@
+[submodule "sps_media_client"]
+	path = sps_media_client
+	url = https://github.com/RPDPR/SPS-Media-Client
+[submodule "sps_media_server"]
+	path = sps_media_server
+	url = https://github.com/RPDPR/SPS-Media-Server
